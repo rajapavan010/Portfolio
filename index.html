@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meat name="viewport" content="width=device-width, initial scale-1.0">
+    <title>My Portfilo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42e78bc2e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Raja Pavan</span><br>Vignesh</h1>
+            </div>
+        </div>
+    </div>
+<!---------------------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I am <span class="namespan">K. Raja Pavan Vignesh</span>, a passionate Computer Science undergraduate currently pursuing my degree at SRM University. My specialization lies in the exciting field of Big Data and Analytics, where I have honed my skills in extracting valuable insights from vast datasets.I have gained a solid foundation in the principles of data analysis, machine learning, and data visualization. The dynamic curriculum has equipped me with the knowledge to tackle complex problems and make informed decisions through data-driven solutions.As I embark on the next chapter of my journey, I am eagerly awaiting opportunities to contribute my skills and knowledge in the role of a Data Analyst. I am enthusiastic about applying my academic learnings to real-world scenarios, where I can leverage data to uncover patterns, derive meaningful insights, and support informed decision-making.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('research')">Research Work</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Analytics</span><br>Data Analysis, Data Visualization</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>My SQL</li>
+                        <li>DSA</li>
+                        <li>DBMS</li>
+                        <li>C/C++</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jun-2023 - Aug-2023</span><br>Internship at APSSDC</li>
+                        <p>
+                            Data Analysis Trainee, Online During this training period, 
+                            I gained proficiency in various data analysis techniques using Python. 
+                            Successfully executed several data analysis projects, 
+                            demonstrating my competence in leveraging Python 
+                            and data analysis libraries to derive meaningful insights.
+                        </p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - Present</span><br>at SRM University-AP        (GPA: 7.87/10.0)</li>
+                        <li><span>2021</span><br>Board of Intermediate Education AP        (86.5)</li>
+                        <li><span>2019</span><br>Board of Secondary Education AP        (9.3/10.0)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="research">
+                    <h2>Feature Reduction Using Bio Inspired Algorithms</h2>
+                    <br>
+                    <p>Research porject. Applied Genetic and Hill Climbing Algorithm on IMOT dataset</p>
+                    <a href="https://github.com/rajapavan010/UROP_Project" target="_blank">
+                        <button class="button">
+                            Learn More
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------projects--------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-titlep">Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>House Price Prediction</h2>
+                <p>In the context of the current real estate market, accurate price predictions are crucial for buyers, sellers, and real estate professionals to make informed decisions. The model will leverage machine learning algorithms and regression techniques, considering various property features such as bedrooms, bathrooms, square footage, and location. The project will involve data exploration, preprocessing, model development, and evaluation, with the ultimate goal of contributing valuable insights to the real estate domain.
+                </p>
+                <a href="https://github.com/rajapavan010/House-Price-Prediction/tree/main" target="_blank">Click Here</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Blue-Dart Service Analysis</h2>
+                <p>The project commenced by examining service efficiency trends, tracing shifts in operational metrics across different time frames. It became evident that technology and data-driven solutions played a pivotal role, enabling faster deliveries, improved tracking, and enhanced customer experiences. Moreover, the analysis delved into the impact of varying factors like peak seasons, geographic regions, and service types on overall service quality. A deeper exploration of customer feedback and satisfaction data highlighted the significance of consistent and timely service. The project revealed that customer-centric strategies, streamlined communication, and prompt issue resolution were key drivers of customer loyalty and repeat business. This emphasized the importance of aligning service operations with customer expectations.
+                </p>
+                <a href="https://github.com/rajapavan010/Blue-Dart-Service-Analysis/tree/main" target="_blank">Click Here</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Hostel Portal Using Java</h2>
+                <p>The main objective of our project is to develop a user friendly desktop application for our collage hostel which would be useful for hostel wardens and  managers to take the Queries and complaints and also to issue the outing pass to the students, staff etc digitally which reduces the paper work and maintaining records. This Hostel Portal is developed using Java.
+                </p>
+                <a href="https://github.com/rajapavan010/Hostal_portal" target="_blank">Click Here</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title1">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> rajapavan015@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9392661295</p>
+                <div class="social-icons">
+                    <a href="https://github.com/rajapavan010"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/raja-pavan-vignesh-092186231/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required/>
+                    <input type="email" name="Email" placeholder="Your Email" required/>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Raja Pavan Vignesh.</p>
+    </div>
+</div>
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmtaRI36tlpObrfrLG68SFNm6yfAikSIHFvVpBn0jBfc6KF5IqAbKmK4MAHI9GWSJZ3Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
